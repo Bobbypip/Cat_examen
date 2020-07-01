@@ -114,16 +114,11 @@ for (let plant of plants) {
 Which statements about the contents of the garden variable are correct?
 (Select all acceptable answers.)
 
-The garden variable contains two copies of the values: "Oak", "Elm", "Beech", "Ash", "Cherry" and "Rose".
- 
-The garden variable contains the integer values: 0, 1 and 2.
- 
-The garden variable contains the values: "Oak", "Elm" and "Beech".
- 
-The garden variable contains the values: "Oak", "Elm", "Beech" and "Rose".
- 
-The garden variable contains two copies of the value: "Rose".
-```
+- The garden variable contains two copies of the values: "Oak", "Elm", "Beech", "Ash", "Cherry" and "Rose".
+- The garden variable contains the integer values: 0, 1 and 2.
+- The garden variable contains the values: "Oak", "Elm" and "Beech".
+- The garden variable contains the values: "Oak", "Elm", "Beech" and "Rose".
+- The garden variable contains two copies of the value: "Rose".
 
 5.	(JQuery, DOM manipulation) A page with comments consists of a list of comments and a form for posting a new comment. This is its HTML code:
 
@@ -138,9 +133,9 @@ The garden variable contains two copies of the value: "Rose".
 
 Write a setup function that registers a click handler and implements the following logic:
 
-•	Each time a button with id postComment is clicked, a new <li> element should be added to the bottom of the list with id commentList, containing the value of the text field with the id comment.
-•	If the text field is empty, the comment should not be posted.
-•	The value of the text field should be cleared after the comment has been posted.
+- Each time a button with id postComment is clicked, a new <li> element should be added to the bottom of the list with id commentList, containing the value of the text field with the id comment.
+- If the text field is empty, the comment should not be posted.
+- The value of the text field should be cleared after the comment has been posted.
 For example, after the comment "test" has been posted, the list's HTML code should look like this:
 
 ```
